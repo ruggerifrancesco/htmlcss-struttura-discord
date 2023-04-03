@@ -68,7 +68,7 @@
 
         .nav-list {
             list-style: none;
-            justify-content: space-between; 
+            justify-content: space-between;
         }
 
     .logo {
@@ -146,26 +146,41 @@
 .footer-top {
     background-color: var(--foot-bg-color);
     padding: 10px 0 30px 0;
+    margin: 0 0 3px 0;
 }
 
-.footer-wrapper-top {
-    height: 400px;
-    border: 1px solid red;
+    .footer-wrapper-top {
+        height: 400px;
+        border: 1px solid red;
+    }
 
-}
+    .footer-aside {
+        height: 400px;
+        background-color: var(--column-bg-primary);
+        flex: 2 1 40%;
+    }
+
+    .column-links{
+        height: 400px;
+        flex: 2 1 20%;  
+        background-color: var(--column-bg-sec);
+    }
 
 .footer-bottom {
     background-color: var(--foot-bg-color);
+    padding-top: 20px;
 } 
 
-.footer-wrapper-bottom {
-    justify-content: space-between;
-}
+    .footer-wrapper-bottom {
+        justify-content: space-between;
+        background-color: var(--column-bg-color);
+        height: 60px;
+    }
 
-.btn {
-    color: white;
-    background-color: var(--button-bg-color);
-    border: 2px dashed black;
-    padding: 6px;
-}
+    .btn {
+        color: white;
+        background-color: var(--button-bg-color);
+        border: 2px dashed black;
+        padding: 6px;
+    }
 
