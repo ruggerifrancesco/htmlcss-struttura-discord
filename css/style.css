@@ -132,8 +132,8 @@
 }
 
 /* Adavanced Selector */
-.main-content:nth-child(2) 
-.content-wrapper 
+.main-content:nth-child(2) >
+.content-wrapper >
 .text-content {
     order: 2;
 }
