@@ -47,6 +47,10 @@
     align-items: center;
 }
 
+.wrapper-space {
+    margin: 3rem 0;
+}
+
 /* Header Section */
 .nav {
     height: 80px;
@@ -94,4 +98,23 @@
     margin: 0 70px;
 }
 
+/* Main Section */
+.content-wrapper {
+    border: 2px dashed black;
+    height: 400px;
+}
+
+.text-content {
+    background-color: var(--cont-bg-primary);
+    height: 400px;
+    width: 60%;
+    border-right: 2px dashed black;
+}
+
+.image-content {
+    border-left: 2px dashed black;
+    background-color: var(--cont-bg-secondary);
+    height: 400px;
+    width: 40%;
+}
 
