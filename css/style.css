@@ -64,6 +64,7 @@
 
     .nav-list-container{
         flex: 2 1 60%;
+        justify-content: space-between;
     } 
 
         .nav-list {
