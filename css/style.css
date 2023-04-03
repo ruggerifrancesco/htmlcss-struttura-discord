@@ -61,7 +61,7 @@
     background-color: var(--nav-bg-color);
     border: 2px dashed black;
     /* Can't go anywhere under 500pixels  */
-    min-width: 500px;
+    min-width: 400px;
 }
 
     .nav-list-container{
