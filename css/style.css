@@ -108,7 +108,6 @@
 
 /* Main Section */
 .content-wrapper {
-    border: 2px dashed black;
     height: 400px;
     overflow: hidden;
 }
@@ -117,14 +116,14 @@
     background-color: var(--cont-bg-primary);
     height: 400px;
     width: calc(100% - 40%);
-    border-right: 2px dashed black;
+    border: 2px dashed black;
 }
 
 .image-content {
-    border-left: 2px dashed black;
     background-color: var(--cont-bg-secondary);
     height: 400px;
     width: 40%;
+    border: 2px dashed black;
 }
 
 .main-content:nth-child(2) {
