@@ -64,12 +64,14 @@
 
     .nav-list-container{
         flex: 2 1 60%;
-        justify-content: space-between;
     } 
 
         .nav-list {
+            display: flex;
+            justify-content: center;
+            width: 100%;
             list-style: none;
-            justify-content: space-between;
+            gap: 2rem;
         }
 
     .logo {
