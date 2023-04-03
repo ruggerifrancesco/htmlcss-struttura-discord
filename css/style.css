@@ -102,6 +102,7 @@
 .content-wrapper {
     border: 2px dashed black;
     height: 400px;
+    overflow: hidden;
 }
 
 .text-content {
