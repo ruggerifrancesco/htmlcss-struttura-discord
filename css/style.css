@@ -55,37 +55,38 @@
 .nav {
     height: 80px;
     background-color: var(--head-bg-color);
-    /* flex: 1 1 33.333333%; */
 }
 
 .nav-wrapper {
-    justify-content: space-between;
     background-color: var(--nav-bg-color);
     border: 2px dashed black;
 }
 
-.nav-list {
-    list-style: none;
-    gap: 2rem;
-    flex-basis: 60%;
-    flex-grow: 2;
-}
+    .nav-list-container{
+        flex-basis: 60%;
+        flex-grow: 2;
+    } 
 
-.logo {
-    border-right: 3px dashed black;
-    flex-basis: 20%;
-    justify-content: flex-start;
-    padding: 8px 3px;
-    flex-grow: 1;
-}
+        .nav-list {
+            list-style: none;
+            justify-content: space-between; 
+        }
 
-.login {
-    border-left: 3px dashed black;
-    flex-basis: 20%;
-    align-self: flex-end;
-    padding: 8px 3px;
-    flex-grow: 1;
-}
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        flex: 1 1 20%;
+        border-right: 3px dashed black;
+        padding: 8px 3px;
+    }
+
+    .login {
+        display: flex;
+        justify-content: flex-end;
+        flex: 1 1 20%;
+        border-left: 3px dashed black;
+        padding: 8px 3px;
+    }
 
 /* Hero Section */
 .hero {
