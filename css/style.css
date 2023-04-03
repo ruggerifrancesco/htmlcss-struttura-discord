@@ -131,7 +131,10 @@
     background-color: var(--main-bg-section);
 }
 
-#test {
+/* Adavanced Selector */
+.main-content:nth-child(2) 
+.content-wrapper 
+.text-content {
     order: 2;
 }
 
