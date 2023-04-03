@@ -127,3 +127,18 @@
     order: 2;
 }
 
+/* Special Section */
+.special {
+    background-color: var(--main-bg-section);
+}
+
+.special-content {
+    background-color: var(--cont-bg-special);
+    width: 100%;
+    height: 600px;
+    border: 2px dashed black;
+}
+
+/* Footer Section   */
+
+
