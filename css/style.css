@@ -101,7 +101,10 @@ body {
 /* Hero Section */
 .hero {
     background-color: var(--hero-bg-color);
-    padding: 4.5rem 1rem;
+}
+
+.hero-wrapper {
+    padding: 5rem 1rem;
 }
 
 .hero-carousel {
