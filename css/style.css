@@ -51,6 +51,10 @@
     padding: 70px 0;
 }
 
+.border-dash {
+    border: 2px dashed black;
+}
+
 /* Header Section */
 .nav {
     height: 80px;
@@ -59,8 +63,7 @@
 
 .nav-wrapper {
     background-color: var(--nav-bg-color);
-    border: 2px dashed black;
-    /* Can't go anywhere under 500pixels  */
+    /* Can't go anywhere under 400pixels  */
     min-width: 400px;
 }
 
@@ -74,22 +77,21 @@
             width: 100%;
             list-style: none;
             gap: 2rem;
+            padding: 8px 5px;
         }
 
     .logo {
         display: flex;
         justify-content: flex-start;
         flex: 1 1 20%;
-        border-right: 3px dashed black;
-        padding: 8px 3px;
+        padding: 8px 5px;
     }
 
     .login {
         display: flex;
         justify-content: flex-end;
         flex: 1 1 20%;
-        border-left: 3px dashed black;
-        padding: 8px 3px;
+        padding: 8px 5px;
     }
 
 /* Hero Section */
@@ -99,7 +101,6 @@
 }
 
 .hero-carousel {
-    border: 2px dashed black;
     background-color: var(--carousel-bg-color);
     height: 370px;
     flex-basis: 100%;
@@ -116,14 +117,12 @@
     background-color: var(--cont-bg-primary);
     height: 400px;
     width: calc(100% - 40%);
-    border: 2px dashed black;
 }
 
 .image-content {
     background-color: var(--cont-bg-secondary);
     height: 400px;
     width: 40%;
-    border: 2px dashed black;
 }
 
 .main-content:nth-child(2) {
@@ -146,7 +145,6 @@
     background-color: var(--cont-bg-special);
     width: 100%;
     height: 600px;
-    border: 2px dashed black;
 }
 
 /* Footer Section   */
@@ -188,7 +186,6 @@
     .btn {
         color: white;
         background-color: var(--button-bg-color);
-        border: 2px dashed black;
         padding: 6px;
     }
 
