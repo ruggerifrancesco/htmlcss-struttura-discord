@@ -37,6 +37,10 @@
 /* ---- CSS Structure Begin ----  */
 
 /* Principal Main Tags */
+body {
+    font-family: sans-serif;
+}
+
 .page-center {
     margin: 0 auto;
     width: 60%;
